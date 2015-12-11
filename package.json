@@ -1,0 +1,30 @@
+{
+  "name": "callback-to-stream",
+  "version": "1.0.0",
+  "description": "Simple readable stream that uses a callback as the source.",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "tape test/*.js | faucet",
+    "browser-test": "tape test/*.js | testling"
+  },
+  "keywords": [],
+  "author": "Dominik Burgdörfer <db@domachine.de>",
+  "license": "MIT",
+  "devDependencies": {
+    "faucet": "0.0.1",
+    "tape": "4.2.2",
+    "testling": "1.7.1"
+  },
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/domachine/callback-to-stream.git"
+  },
+  "bugs": {
+    "url": "https://github.com/domachine/callback-to-stream/issues"
+  },
+  "homepage": "https://github.com/domachine/callback-to-stream#readme"
+}
